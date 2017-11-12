@@ -12,6 +12,11 @@
 		E3D867AC1FB80FB800964135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D867AA1FB80FB800964135 /* Main.storyboard */; };
 		E3D867AE1FB80FB800964135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D867AD1FB80FB800964135 /* Assets.xcassets */; };
 		E3D867B11FB80FB800964135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D867AF1FB80FB800964135 /* LaunchScreen.storyboard */; };
+		E3D867B91FB8283300964135 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D867B81FB8283300964135 /* LoginViewController.swift */; };
+		E3D867BB1FB82AE100964135 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D867BA1FB82AE100964135 /* HomeViewController.swift */; };
+		E3D867BD1FB82B4400964135 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D867BC1FB82B4400964135 /* ImageSelectViewController.swift */; };
+		E3D867BF1FB82BAD00964135 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D867BE1FB82BAD00964135 /* PostViewController.swift */; };
+		E3D867C11FB82C1E00964135 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D867C01FB82C1E00964135 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E3D867AD1FB80FB800964135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3D867B01FB80FB800964135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3D867B21FB80FB800964135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D867B81FB8283300964135 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E3D867BA1FB82AE100964135 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E3D867BC1FB82B4400964135 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		E3D867BE1FB82BAD00964135 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		E3D867C01FB82C1E00964135 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				E3D867A61FB80FB800964135 /* AppDelegate.swift */,
 				E3D867A81FB80FB800964135 /* ViewController.swift */,
 				E3D867AA1FB80FB800964135 /* Main.storyboard */,
+				E3D867C01FB82C1E00964135 /* SettingViewController.swift */,
+				E3D867BE1FB82BAD00964135 /* PostViewController.swift */,
+				E3D867BC1FB82B4400964135 /* ImageSelectViewController.swift */,
+				E3D867BA1FB82AE100964135 /* HomeViewController.swift */,
+				E3D867B81FB8283300964135 /* LoginViewController.swift */,
 				E3D867AD1FB80FB800964135 /* Assets.xcassets */,
 				E3D867AF1FB80FB800964135 /* LaunchScreen.storyboard */,
 				E3D867B21FB80FB800964135 /* Info.plist */,
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3D867BF1FB82BAD00964135 /* PostViewController.swift in Sources */,
+				E3D867B91FB8283300964135 /* LoginViewController.swift in Sources */,
 				E3D867A91FB80FB800964135 /* ViewController.swift in Sources */,
 				E3D867A71FB80FB800964135 /* AppDelegate.swift in Sources */,
+				E3D867BD1FB82B4400964135 /* ImageSelectViewController.swift in Sources */,
+				E3D867C11FB82C1E00964135 /* SettingViewController.swift in Sources */,
+				E3D867BB1FB82AE100964135 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
